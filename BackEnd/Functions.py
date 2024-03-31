@@ -7,7 +7,7 @@ import BackEnd.GlobalInfo.ResponseMessages as ResponseMessage
 import BackEnd.GlobalInfo.Keys as ColabsKey
 
 #Conexion a la base de datos
-uri = "mongosh "mongodb+srv://seguridaddeaplicaciones.pfook2g.mongodb.net/" --apiVersion 1 --username neskuik42 --password Lpc8YghcfVS00nnE"
+uri = "mongodb+srv://seguridaddeaplicaciones.pfook2g.mongodb.net/" --apiVersion 1 --username neskuik42 --password Lpc8YghcfVS00nnE"
 
 if ColabsKey.dbconn==None:
     ###mongoConnect=MongoClient(ColabsKey.strConnection)
